@@ -1,0 +1,51 @@
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50%;
+}
+
+.container-graphic {
+  width: 100%;
+}
+
+.container-text {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(0 0 0 / 56%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container-text h1 {
+  font-weight: bold;
+}
+
+.container-text h2 {
+  font-weight: normal;
+}
+
+.container-text hr {
+  margin: auto;
+  width: 20%;
+}
